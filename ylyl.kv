@@ -1,0 +1,15 @@
+
+<YLYL>:
+	id: YDisplay
+	display: entry
+	rows: 2
+	padding: 10
+	spacing: 10
+	TextInput:
+		id: entry
+		text_size: self.size
+		size_hint_x: .7
+	Button:
+		text: "Make me laugh!"
+		on_press: YDisplay.newJoke()
+
