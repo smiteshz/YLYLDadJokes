@@ -2,14 +2,50 @@
 <YLYL>:
 	id: YDisplay
 	display: entry
-	rows: 2
+	rows: 3
 	padding: 10
 	spacing: 10
 	TextInput:
 		id: entry
 		text_size: self.size
-		size_hint_x: .7
+		size_hint_y: 20
 	Button:
 		text: "Make me laugh!"
 		on_press: YDisplay.newJoke()
+	Button: 
+		text: "Test"
+		on_press: YDisplay.checkLaughter()
 
+
+<ConfirmPopup@Popup>:
+	id: confirmpop
+    cols:1
+	Label:
+		text: root.text
+	GridLayout:
+		cols: 2
+		size_hint_y: None
+		height: '44sp'
+		Button:
+			text: 'Yes'
+			on_release: root.dispatch('on_answer','yes')
+		Button:
+			text: 'No'
+			on_release: root.dispatch('on_answer', 'no')
+
+<CameraClick>:
+	orientation: 'vertical'
+	Camera:
+		id: camera
+		resolution: (640, 480)
+		play: True
+	ToggleButton:
+		text: 'Play'
+		on_press: camera.play = not camera.play
+		size_hint_y: None
+		height: '48dp'
+	Button:
+		text: 'Capture'
+		size_hint_y: None
+		height: '48dp'
+		on_press: root.capture()
