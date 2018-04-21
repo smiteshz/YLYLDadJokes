@@ -1,0 +1,959 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cam",
+				"cameraBuilder"
+			],
+			[
+				"ret",
+				"retVal"
+			],
+			[
+				"res",
+				"resSign"
+			],
+			[
+				"shif",
+				"shiftDividend"
+			],
+			[
+				"si",
+				"shiftDividend"
+			],
+			[
+				"divi",
+				"dividend"
+			],
+			[
+				"di",
+				"divisor"
+			],
+			[
+				"divie",
+				"dividend"
+			],
+			[
+				"div",
+				"divoSign"
+			],
+			[
+				"tr",
+				"True"
+			],
+			[
+				"int",
+				"int_max"
+			],
+			[
+				"num",
+				"numberSign"
+			],
+			[
+				"nu",
+				"numberSign"
+			],
+			[
+				"number",
+				"numberSign"
+			],
+			[
+				"sile",
+				"smile_cascade"
+			],
+			[
+				"face",
+				"face_cascade"
+			],
+			[
+				"len",
+				"lengthOfLongestSubstring"
+			],
+			[
+				"le",
+				"lengthOfLongestSubstring"
+			],
+			[
+				"text",
+				"text_size"
+			],
+			[
+				"size_hi",
+				"size_hint_y"
+			],
+			[
+				"siz",
+				"size_hint_x"
+			],
+			[
+				"font",
+				"font_size"
+			],
+			[
+				"YL",
+				"YLYLApp"
+			],
+			[
+				"l1",
+				"l1flag"
+			],
+			[
+				"ch",
+				"choice"
+			],
+			[
+				"search",
+				"search_q"
+			],
+			[
+				"sear",
+				"search_q"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"strin",
+				"string1"
+			],
+			[
+				"sr",
+				"string1"
+			],
+			[
+				"str",
+				"string1"
+			],
+			[
+				"check",
+				"checker"
+			],
+			[
+				"string",
+				"string1"
+			],
+			[
+				"ad",
+				"adjMatrix"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"ed",
+				"edge"
+			],
+			[
+				"edeg",
+				"edgedict"
+			],
+			[
+				"edge",
+				"edgedict"
+			],
+			[
+				"bin",
+				"binrepre"
+			],
+			[
+				"po",
+				"posis"
+			],
+			[
+				"posis",
+				"positionsOfBins"
+			],
+			[
+				"tunnel",
+				"tunnel_no"
+			],
+			[
+				"maze",
+				"mazestr"
+			],
+			[
+				"inu",
+				"input_arr"
+			],
+			[
+				"input",
+				"input_arr"
+			],
+			[
+				"ip",
+				"ip_x"
+			],
+			[
+				"rnn_",
+				"rnn_size"
+			],
+			[
+				"n",
+				"no_classes"
+			],
+			[
+				"rnn",
+				"rnn_size"
+			],
+			[
+				"fea",
+				"feature_labels"
+			],
+			[
+				"de",
+				"delimiter"
+			],
+			[
+				"aba",
+				"abalone_dataset_2"
+			],
+			[
+				"csv",
+				"csvfile"
+			],
+			[
+				"y_",
+				"y_train"
+			],
+			[
+				"elemtn",
+				"element"
+			],
+			[
+				"x",
+				"x_train"
+			],
+			[
+				"train",
+				"train_len"
+			],
+			[
+				"y",
+				"y_train"
+			],
+			[
+				"no",
+				"no_classes"
+			],
+			[
+				"noo",
+				"no_nodes_h3"
+			],
+			[
+				"tes",
+				"test_size"
+			],
+			[
+				"abalone",
+				"abalone_dataset"
+			],
+			[
+				"ran",
+				"random_normal"
+			],
+			[
+				"out",
+				"output_layer"
+			],
+			[
+				"hidd",
+				"hidden_layer_1"
+			],
+			[
+				"nod",
+				"no_nodes_3"
+			],
+			[
+				"no_",
+				"no_nodes_2"
+			],
+			[
+				"alp",
+				"alph"
+			],
+			[
+				"a",
+				"alph2"
+			],
+			[
+				"epoch",
+				"epoch_loss"
+			],
+			[
+				"test",
+				"test_y"
+			],
+			[
+				"tra",
+				"train_y"
+			],
+			[
+				"crea",
+				"create_dataset"
+			],
+			[
+				"feature",
+				"feature_set"
+			],
+			[
+				"featu",
+				"feature_set"
+			],
+			[
+				"lex",
+				"lexicons"
+			],
+			[
+				"class",
+				"classification"
+			],
+			[
+				"pos",
+				"positive"
+			],
+			[
+				"feat",
+				"featureset"
+			],
+			[
+				"index",
+				"index_val"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"word",
+				"word_tokenize"
+			],
+			[
+				"p",
+				"prediction"
+			],
+			[
+				"epoc",
+				"epoch_loss"
+			],
+			[
+				"m",
+				"mnist"
+			],
+			[
+				"non",
+				"no_nodes_h3"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"get",
+				"get_screen"
+			],
+			[
+				"current",
+				"current_screen"
+			],
+			[
+				"last",
+				"last_duration"
+			],
+			[
+				"episode",
+				"episode_duration"
+			],
+			[
+				"transt",
+				"transition_next"
+			],
+			[
+				"tran",
+				"transition_now"
+			],
+			[
+				"trans",
+				"transition_next"
+			],
+			[
+				"scree",
+				"screen_past"
+			],
+			[
+				"screen",
+				"screen_past"
+			],
+			[
+				"optim",
+				"optimizer"
+			],
+			[
+				"ex",
+				"expected_state_val"
+			],
+			[
+				"rewar",
+				"reward_batch"
+			],
+			[
+				"G",
+				"GAMMA"
+			],
+			[
+				"nex",
+				"next_state_val"
+			],
+			[
+				"save",
+				"save_next_states"
+			],
+			[
+				"act",
+				"action_batch"
+			],
+			[
+				"stat",
+				"state_batch"
+			],
+			[
+				"Tr",
+				"Transition"
+			],
+			[
+				"Var",
+				"Variable"
+			],
+			[
+				"E",
+				"EPS_DECAY"
+			],
+			[
+				"Ep",
+				"EPS_END"
+			],
+			[
+				"EP",
+				"EPS_START"
+			],
+			[
+				"EPS",
+				"EPS_END"
+			],
+			[
+				"conv",
+				"conv_layer4"
+			],
+			[
+				"scne",
+				"screenshot"
+			],
+			[
+				"slice",
+				"slice_screen"
+			],
+			[
+				"sli",
+				"slice_screen"
+			],
+			[
+				"con",
+				"conv_layer3"
+			],
+			[
+				"bat",
+				"batch_norm3"
+			],
+			[
+				"batch",
+				"batch_norm1"
+			],
+			[
+				"pick",
+				"picktime"
+			],
+			[
+				"r",
+				"r_file"
+			],
+			[
+				"pass",
+				"passenger_list"
+			],
+			[
+				"driv",
+				"driver_bk"
+			],
+			[
+				"tota",
+				"total_members"
+			],
+			[
+				"total",
+				"total_res"
+			],
+			[
+				"park",
+				"parking_duration"
+			],
+			[
+				"Free",
+				"Free_Members"
+			],
+			[
+				"at",
+				"ar_time"
+			],
+			[
+				"pi",
+				"pickups"
+			],
+			[
+				"arr",
+				"arrival"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/GUI.py",
+			"settings":
+			{
+				"buffer_size": 3228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
+			"settings":
+			{
+				"buffer_size": 525,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
+			"settings":
+			{
+				"buffer_size": 977,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			],
+			[
+				"",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"exit()",
+			"exit"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes"
+	],
+	"file_history":
+	[
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/CLI.py",
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/haarcascade_smile.xml",
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/test_faces.py",
+		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/LeetCode29.py",
+		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/LeetCode766.py",
+		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/LeetCode27.py",
+		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/GUI.py",
+		"/C/Users/Smitesh/Desktop/python_projects/Practive/LeetCode8.py",
+		"/C/Users/Smitesh/Desktop/python_projects/Practive/LeetCode4.py",
+		"/C/Users/Smitesh/Desktop/python_projects/Practive/Cracking1.py",
+		"/C/Users/Smitesh/Desktop/python_projects/Practive/LeetCode44.py",
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/GUI2.py",
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/YLkiv.kv",
+		"/C/Users/Smitesh/Desktop/python/Practive/DadJokesSim.py",
+		"/C/ProgramData/Anaconda3/share/kivy-examples/demo/showcase/main.py",
+		"/C/ProgramData/Anaconda3/share/kivy-examples/demo/showcase/showcase.kv",
+		"/C/Users/Smitesh/Desktop/python/Practive/LeetCode3.py",
+		"/C/Users/Smitesh/Desktop/python/Practive/Cracking1.py",
+		"/C/Users/Smitesh/Desktop/python/Practive/LeetCode1.py",
+		"/C/Users/Smitesh/Desktop/python/Practive/LeetCode2.1.py",
+		"/C/Users/Smitesh/Desktop/python/Practive/LeetCode2.py",
+		"/C/Users/Smitesh/Desktop/Remakes/react-native-gifted-chat/example/App.js",
+		"/C/Users/Smitesh/Desktop/python/regex.py",
+		"/C/Users/Smitesh/workspace/incongnitomessenger/src/main/java/org/smitesh/darryl/incongnitomessenger/model/Message.java",
+		"/C/Users/Smitesh/workspace/incongnitomessenger/src/main/java/org/smitesh/darryl/incongnitomessenger/model/Credentials.java",
+		"/C/Users/Smitesh/workspace/incongnitomessenger/src/main/java/org/smitesh/darryl/incongnitomessenger/service/MessageService.java",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/graphs.py",
+		"/C/Users/Smitesh/workspace/incongnitomessenger/src/main/java/org/smitesh/darryl/incongnitomessenger/service/AuthService.java",
+		"/C/Users/Smitesh/workspace/incongnitomessenger/src/main/java/org/smitesh/darryl/incongnitomessenger/model/Response.java",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/udemyex.py",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/memctrller.py",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/bleh.py",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/belh2.py",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/object.py",
+		"/C/Users/Smitesh/Desktop/python/New/MNIST.py",
+		"/C/Users/Smitesh/Desktop/python/TensorFlowTutorials/RecurrentNN.py",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/staircase.py",
+		"/C/Users/Smitesh/Documents/Sorting Algorithms/sorting.py",
+		"/C/Users/Smitesh/Desktop/python/TensorFlowTutorials/abaloneclassifier.py",
+		"/C/Users/Smitesh/Desktop/python/TensorFlowTutorials/newDataImport.py",
+		"/C/Users/Smitesh/Desktop/python/New/nlpclassification.py",
+		"/C/Users/Smitesh/Desktop/python/New/neew_",
+		"/C/Users/Smitesh/Desktop/python/New/abaloneclassifier.py",
+		"/C/Users/Smitesh/Desktop/python/New/jhol.py",
+		"/C/Users/Smitesh/Desktop/python/New/tensorpractice.py",
+		"/C/Users/Smitesh/Desktop/python/New/nlpsentiment.py",
+		"/C/Users/Smitesh/Desktop/python/New/tensortest.py",
+		"/C/Users/Smitesh/Desktop/python/machinelearning/practice code/dog classification.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Assignments/Assignment2.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Assignments/assignment1.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Project/project.h",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/progressbar.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Project/project.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/Lynx_Agent_3.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/ATC Project/simpytest.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Project/atcsim.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Project/cartpole4.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Project/cartpole5.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Project/cartpole3.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Project/cartpole.py",
+		"/C/ProgramData/Anaconda3/Lib/site-packages/gym/envs/classic_control/cartpole.py",
+		"/C/ProgramData/Anaconda3/Lib/site-packages/gym/envs/classic_control/continuous_mountain_car.py",
+		"/C/ProgramData/Anaconda3/Lib/site-packages/gym/envs/classic_control/pendulum.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Project/cartpole-problem-demo.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/kilobot_structure.txt",
+		"/C/Users/Smitesh/Desktop/eba.cpp",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Project/cartpole2.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/Lynx_Agent_2.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/version3.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/progressbar.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/version4.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/Lynx_Agent.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/heappq.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/Scrapcode.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/Lynx/Lynx_Sim.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/distributed.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/montecarlosim.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Assignments/hopfield.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/MIS.h",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/MIS.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/montecarlosim2b.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/color.h",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/color.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/progressBarPrinter.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/new_file.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/new_file.h",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/coloring.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/montecarlosimv2.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/montecarlosim2.py",
+		"/C/Users/Smitesh/Desktop/python/Project/agent.py",
+		"/C/Users/Smitesh/Desktop/python/Project/keyboard.py",
+		"/C/Users/Smitesh/Desktop/python/corenlp.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/AI Project/pysc2-master/README.md",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/scrapcode.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Assignments/covari.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Assignments/assignment 2.py",
+		"/C/Users/Smitesh/Desktop/Image Processing Project/imageprocessing.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/integral_test.py",
+		"/C/Users/Smitesh/Desktop/Image Processing Project/test.py",
+		"/C/Users/Smitesh/Desktop/Image Processing Project/plot_template.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 552 Modelling and Simulation/Assignments/dass.py",
+		"/I/Le.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 590 Machine Learning/Assignments/test.py",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/le.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/ring (1).c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/le.h",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distributed Computing/Assignments/RingElection.c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distrubuted Coomputing/Assignments/ring (1).c",
+		"/C/Users/Smitesh/Google Drive 2/Fall 2017/CECS 574 Distrubuted Coomputing/Assignments/ring.c",
+		"/C/Users/Smitesh/Desktop/AI Final Presentation/sentdex1.py",
+		"/C/Users/Smitesh/Desktop/AI Final Presentation/finaldemo.py",
+		"/C/Users/Smitesh/Desktop/AI Final Presentation/Modsim.py",
+		"/C/Users/Smitesh/Desktop/python/machinelearning/basiclearning.py",
+		"/C/Users/Smitesh/Desktop/python/machinelearning/practice code/iris classsification.py",
+		"/C/Users/Smitesh/Desktop/AI Final Presentation/backpropdemo.py",
+		"/C/Users/Smitesh/Desktop/python/mailtester.py",
+		"/C/Users/Smitesh/Desktop/python/webchecker.py",
+		"/C/Users/Smitesh/Documents/Python/Smitesh551Final.py",
+		"/C/Users/Smitesh/Documents/Python/regex.py",
+		"/C/Users/Smitesh/Documents/Python/Stringreverese.py",
+		"/C/Users/Smitesh/Documents/Python/tensorbprop.py",
+		"/C/Users/Smitesh/Documents/R programs/First Program.R",
+		"/C/Users/Smitesh/Documents/Python/datascienceinpy.py",
+		"/F/My_application2/app/src/main/java/com/the_incognito/darry/my_application2/Chat.java",
+		"/C/Users/Smitesh/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Smitesh/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/GUI.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kivy Language/kv.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "new.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

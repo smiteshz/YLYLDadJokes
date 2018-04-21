@@ -2,7 +2,7 @@
 <YLYL>:
 	id: YDisplay
 	display: entry
-	rows: 3
+	rows: 4
 	padding: 10
 	spacing: 10
 	TextInput:
@@ -15,8 +15,14 @@
 	Button: 
 		text: "Test"
 		on_press: YDisplay.checkLaughter()
-
-
+	Button:
+		text: "Camera"
+		on_press: YDisplay.camTester()
+	# Camera:
+	# 	id: camera2
+	# 	resolution: (640, 480)
+	# 	play: True
+		
 <ConfirmPopup@Popup>:
 	id: confirmpop
     cols:1
