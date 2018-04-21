@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"Regis",
+				"RegisterPage"
+			],
+			[
+				"User",
+				"UserLoginPage"
+			],
+			[
+				"Main",
+				"MainApplicationPage"
+			],
+			[
+				"la",
+				"Label1"
+			],
+			[
+				"password",
+				"passwordText"
+			],
+			[
+				"log",
+				"loginBtn"
+			],
+			[
+				"username",
+				"usernameText"
+			],
+			[
+				"stream",
+				"streamObj"
+			],
+			[
+				"stre",
+				"streamObj"
+			],
+			[
+				"curre",
+				"currentResult"
+			],
+			[
+				"joke",
+				"jokeDisplay"
+			],
+			[
+				"app",
+				"appObject"
+			],
+			[
+				"Ma",
+				"MainApplicationPage"
+			],
+			[
+				"Image",
+				"ImageTk"
+			],
+			[
+				"stop",
+				"stopEvent"
+			],
+			[
+				"sto",
+				"stopEvent"
+			],
+			[
 				"cam",
 				"cameraBuilder"
 			],
@@ -450,70 +514,6 @@
 			[
 				"scne",
 				"screenshot"
-			],
-			[
-				"slice",
-				"slice_screen"
-			],
-			[
-				"sli",
-				"slice_screen"
-			],
-			[
-				"con",
-				"conv_layer3"
-			],
-			[
-				"bat",
-				"batch_norm3"
-			],
-			[
-				"batch",
-				"batch_norm1"
-			],
-			[
-				"pick",
-				"picktime"
-			],
-			[
-				"r",
-				"r_file"
-			],
-			[
-				"pass",
-				"passenger_list"
-			],
-			[
-				"driv",
-				"driver_bk"
-			],
-			[
-				"tota",
-				"total_members"
-			],
-			[
-				"total",
-				"total_res"
-			],
-			[
-				"park",
-				"parking_duration"
-			],
-			[
-				"Free",
-				"Free_Members"
-			],
-			[
-				"at",
-				"ar_time"
-			],
-			[
-				"pi",
-				"pickups"
-			],
-			[
-				"arr",
-				"arrival"
 			]
 		]
 	},
@@ -529,20 +529,21 @@
 			}
 		},
 		{
-			"file": "/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
+			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/pyGUI.py",
 			"settings":
 			{
-				"buffer_size": 525,
-				"line_ending": "Windows"
+				"buffer_size": 6096,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import"
 			}
 		},
 		{
-			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
+			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/haarcascade_smile.xml",
 			"settings":
 			{
-				"buffer_size": 977,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 188506,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -616,14 +617,14 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
+		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
 		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/CLI.py",
 		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/haarcascade_smile.xml",
 		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/test_faces.py",
 		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/LeetCode29.py",
 		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/LeetCode766.py",
 		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/LeetCode27.py",
-		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
-		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
 		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/GUI.py",
 		"/C/Users/Smitesh/Desktop/python_projects/Practive/LeetCode8.py",
 		"/C/Users/Smitesh/Desktop/python_projects/Practive/LeetCode4.py",
@@ -747,7 +748,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 61.0
 	},
 	"find_in_files":
 	{
@@ -761,6 +762,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\t\t\n",
+			"parent",
+			"self.root"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -768,6 +772,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"self"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -794,8 +799,8 @@
 						"selection":
 						[
 							[
-								689,
-								689
+								1807,
+								1807
 							]
 						],
 						"settings":
@@ -804,35 +809,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 124.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
+					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/pyGUI.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 525,
+						"buffer_size": 6096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								522,
-								522
+								1027,
+								1027
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.sublime-syntax"
+							"auto_name": "import",
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -840,31 +846,32 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
-					"semi_transient": false,
+					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/haarcascade_smile.xml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 977,
+						"buffer_size": 188506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Kivy Language/kv.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -913,7 +920,7 @@
 	"project": "new.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 116.0
 	},
 	"save_all_on_build": true,
 	"select_file":

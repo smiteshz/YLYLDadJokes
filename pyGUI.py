@@ -2,10 +2,9 @@ from PIL import Image
 from PIL import ImageTk
 import tkinter as tk
 import threading
-import time
 import imutils as utils
 import cv2
-import sys
+import time
 import argparse
 import requests as req
 from tkinter import ttk
@@ -18,44 +17,111 @@ choice =  True
 search_q = ""
 ch = ""
 
-class MainApplicationPage():
-	def __init__(self, stream):
+class MainApp(tk.Tk):
+	def __init__(self, streamObj, *args, **kwargs):
+		tk.Tk.__init__(self, *args, **kwargs)
+		self.wm_title("You Laugh You Loose Challenge")
+		self.wm_protocol("WM_DELETE_WINDOW", self.onClose)
+		container = tk.Frame(self)
+		self.streamObj = streamObj
+		container.pack(side = "top", fill = "both", expand = True)
+		self.stopEvent = threading.Event()
+
+		container.grid_rowconfigure(0, weight = 1)
+		container.grid_columnconfigure(0, weight = 1)
+
+		self.frames = {}
+		frame = MainApplicationPage(container, self, self.streamObj)		
+		self.frames[MainApplicationPage] = frame
+		frame.grid(row = 0, column = 0, sticky = "nsew")
+		# for F in (MainApplicationPage, UserLoginPage, RegisterPage):
+		# 	frame = F(container, self, self.streamObj)		
+		# 	self.frames[F] = frame
+		# 	frame.grid(row = 0, column = 0, sticky = "nsew")
+		self.show_frame(MainApplicationPage)
+
+	def show_frame(self, cont):
+		frame = self.frames[cont]
+		frame.tkraise()
+
+	def onClose(self):
+		print("[INFO] Closing the app")
+		self.stopEvent.set()
+		print("[INFO] Event Stopped")
+		self.streamObj.stop()
+		print("[INFO] Stopped Camera")
+		self.quit()
+		print("[INFO] Stopped App")
+		self.destroy()
+		print("[INFO] Quitting the window")
+		exit()
+		return
+
+class UserLoginPage(tk.Frame):
+	def __init__(self, parent, controller, stream):
+		tk.Frame.__init__(self, parent)
+		self.usernameLabel = tk.Label(self, text = "Username")
+		self.grid_rowconfigure(0, weight = 1)
+		self.grid_columnconfigure(0, weight = 1)
+		self.usernameLabel.grid(row = 0 , column = 0, sticky = "nsew")
+		self.usernameText = tk.Text(self)
+		self.usernameText.grid(row = 0, column = 1, sticky = "nsew")
+		self.passwordLabel = tk.Label(self, text = "Password")
+		self.passwordLabel.grid(row = 1, column = 0, sticky = "nsew")
+		self.passwordText = tk.Text(self)
+		self.passwordText.grid(row = 1, column = 1, sticky = "nsew")
+		self.loginBtn = tk.Button(self, text = "Login", command = self.login)
+		self.loginBtn.grid(row = "2", column = "0", sticky = "nsew")
+		self.registerBtn = tk.Button(self, text = "Register", command = lambda: controller.show_frame(RegisterPage))
+		self.registerBtn.grid(row = "2", column = "1", sticky = "nsew")
+
+	def login(self):
+		usrname = self.usernameText.get("1.0", 'end-1c')
+		password = self.passwordText.get("1.0", 'end-1c')
+		print (f"Username = {usrname}, Password = {password}")
+
+class RegisterPage(tk.Frame):
+	def __init__(self, parent, controller, stream):
+		tk.Frame.__init__(self, parent)
+		self.Label1 = tk.Label (text = "Register Page !!")
+		self.Label1.pack()
+
+class MainApplicationPage(tk.Frame):
+	def __init__(self, parent, controller, stream):
 		"""
 		Store the stream object, initialize the most recently read frame,
 		thread for reading frames and the thread for stoping the read operation
 		"""
+		tk.Frame.__init__(self, parent)
 		self.stream = stream
 		self.frame = None
 		self.thread = None
 		self.stopEvent = None
-
-		self.root = tk.Tk()
+		# self = tk.Tk()
 		self.panel = None
+		self.parent = controller
 		self.fls = cv2.CASCADE_SCALE_IMAGE
 		self.currentJoke = tk.StringVar()
-		self.jokeDisplay = ttk.Label(self.root, textvariable = self.currentJoke)
+		self.jokeDisplay = ttk.Label(self, textvariable = self.currentJoke)
 		self.jokeDisplay.pack(side = "bottom", expand = "yes", padx = 10, pady = 10)
 
 		self.currentResult = tk.StringVar()
-		self.resultDisplay = ttk.Label(self.root, textvariable = self.currentResult)
+		self.resultDisplay = ttk.Label(self, textvariable = self.currentResult)
 		self.resultDisplay.pack(side = "bottom", expand = "yes", padx = 10, pady = 10)
 
-		btn1 = ttk.Button(self.root, text = "Make me Laugh!", command = self.newJoke)
+		btn1 = ttk.Button(self, text = "Make me Laugh!", command = self.newJoke)
 		btn1.pack(side = "bottom", fill = "both", expand = "yes", padx = 10, pady = 10)
 
-		btn2 = ttk.Button(self.root, text = "Quit", command = self.exitOption)
+		btn2 = ttk.Button(self, text = "Quit", command = self.exitOption)
 		btn2.pack(side = "top", fill = "both", expand = "yes", padx = 10, pady = 10)
-
-		self.stopEvent = threading.Event()
 		self.thread = threading.Thread(target = self.videoLoop, args = ())
 		self.thread.start()
 
-		self.root.wm_title("You Laugh You Loose Challenge")
-		self.root.wm_protocol("WM_DELETE_WINDOW", self.onClose)
 
 	def videoLoop(self):
 		try:
-			while not self.stopEvent.is_set():
+			while not(self.parent.stopEvent.is_set()):
+				print("Entering the Loop")
 				self.frame = self.stream.read()
 				self.frame = utils.resize(self.frame, width = 300)
 				gray = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
@@ -81,6 +147,7 @@ class MainApplicationPage():
 				else:
 					self.panel.configure(image = image)
 					self.panel.image = image
+
 		except Exception as e:
 			print(f"Caught a Runtime Error: {e}")
 
@@ -96,22 +163,18 @@ class MainApplicationPage():
 			self.currentJoke.set(f"Error finding the joke \nError: {e}")
 			return
 
-	def onClose(self):
-		print("[INFO] Closing the app")
-		self.stopEvent.set()
-		self.stream.stop()
-		self.root.quit()
+	
 
 	def exitOption(self):
 		print("[INFO] Closing the app")
 		self.stopEvent.set()
 		self.stream.stop()
-		self.root.quit()
+		self.quit()
 
 
 print ("Initializing the Camera")
 stream = VideoStream().start()
 time.sleep(2.0)
 
-appObject = MainApplicationPage(stream)
-appObject.root.mainloop()
+appObject = MainApp(streamObj = stream)
+appObject.mainloop()
