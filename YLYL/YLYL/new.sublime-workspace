@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"current",
+				"currentResult"
+			],
+			[
+				"Lo",
+				"UserLoginPage"
+			],
+			[
+				"quit",
+				"quitCallback"
+			],
+			[
 				"Regis",
 				"RegisterPage"
 			],
@@ -420,10 +432,6 @@
 				"get_screen"
 			],
 			[
-				"current",
-				"current_screen"
-			],
-			[
 				"last",
 				"last_duration"
 			],
@@ -506,14 +514,6 @@
 			[
 				"EPS",
 				"EPS_END"
-			],
-			[
-				"conv",
-				"conv_layer4"
-			],
-			[
-				"scne",
-				"screenshot"
 			]
 		]
 	},
@@ -532,18 +532,18 @@
 			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/pyGUI.py",
 			"settings":
 			{
-				"buffer_size": 6096,
+				"buffer_size": 6131,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "import"
 			}
 		},
 		{
-			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/haarcascade_smile.xml",
+			"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/test_faces.py",
 			"settings":
 			{
-				"buffer_size": 188506,
-				"line_ending": "Unix"
+				"buffer_size": 926,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -617,6 +617,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/test_args.py",
 		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/ylyl.kv",
 		"/C/Users/Smitesh/Desktop/python_projects/LeetCode/TestLC27.java",
 		"/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/CLI.py",
@@ -743,12 +744,11 @@
 		"/C/Users/Smitesh/Documents/R programs/First Program.R",
 		"/C/Users/Smitesh/Documents/Python/datascienceinpy.py",
 		"/F/My_application2/app/src/main/java/com/the_incognito/darry/my_application2/Chat.java",
-		"/C/Users/Smitesh/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Smitesh/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/C/Users/Smitesh/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
-		"height": 61.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -762,6 +762,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"utils",
 			"\t\t\t\n",
 			"parent",
 			"self.root"
@@ -809,7 +810,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2400.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -821,15 +822,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6096,
+						"buffer_size": 6131,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1027,
-								1027
+								5120,
+								5120
 							]
 						],
 						"settings":
@@ -838,7 +839,7 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -846,11 +847,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/haarcascade_smile.xml",
+					"file": "/C/Users/Smitesh/Desktop/Remakes/YLYL-Dad-Jokes/YLYLDadJokes/test_faces.py",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 188506,
+						"buffer_size": 926,
 						"regions":
 						{
 						},
@@ -863,12 +864,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -910,7 +911,7 @@
 	"menu_visible": false,
 	"output.exec":
 	{
-		"height": 30.0
+		"height": 169.0
 	},
 	"output.find_results":
 	{
@@ -920,7 +921,7 @@
 	"project": "new.sublime-project",
 	"replace":
 	{
-		"height": 116.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

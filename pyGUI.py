@@ -20,11 +20,12 @@ ch = ""
 class MainApp(tk.Tk):
 	def __init__(self, streamObj, *args, **kwargs):
 		tk.Tk.__init__(self, *args, **kwargs)
+		# self.resizable(width = False, height = False)
 		self.wm_title("You Laugh You Loose Challenge")
 		self.wm_protocol("WM_DELETE_WINDOW", self.onClose)
 		container = tk.Frame(self)
 		self.streamObj = streamObj
-		container.pack(side = "top", fill = "both", expand = True)
+		container.pack(side = "top", fill = "both", expand = False)
 		self.stopEvent = threading.Event()
 
 		container.grid_rowconfigure(0, weight = 1)
@@ -34,8 +35,8 @@ class MainApp(tk.Tk):
 		frame = MainApplicationPage(container, self, self.streamObj)		
 		self.frames[MainApplicationPage] = frame
 		frame.grid(row = 0, column = 0, sticky = "nsew")
-		# for F in (MainApplicationPage, UserLoginPage, RegisterPage):
-		# 	frame = F(container, self, self.streamObj)		
+		# for F in (UserLoginPage, RegisterPage):
+		# 	frame = F(container, self)		
 		# 	self.frames[F] = frame
 		# 	frame.grid(row = 0, column = 0, sticky = "nsew")
 		self.show_frame(MainApplicationPage)
@@ -49,17 +50,18 @@ class MainApp(tk.Tk):
 		self.stopEvent.set()
 		print("[INFO] Event Stopped")
 		self.streamObj.stop()
+		time.sleep(2.0)
 		print("[INFO] Stopped Camera")
 		self.quit()
 		print("[INFO] Stopped App")
 		self.destroy()
 		print("[INFO] Quitting the window")
-		exit()
+		cv2.destroyAllWindows()
 		return
 
 class UserLoginPage(tk.Frame):
-	def __init__(self, parent, controller, stream):
-		tk.Frame.__init__(self, parent)
+	def __init__(self, parent, controller):
+		tk.Frame.__init__(self, parent, width = 400, height = 200)
 		self.usernameLabel = tk.Label(self, text = "Username")
 		self.grid_rowconfigure(0, weight = 1)
 		self.grid_columnconfigure(0, weight = 1)
@@ -70,7 +72,7 @@ class UserLoginPage(tk.Frame):
 		self.passwordLabel.grid(row = 1, column = 0, sticky = "nsew")
 		self.passwordText = tk.Text(self)
 		self.passwordText.grid(row = 1, column = 1, sticky = "nsew")
-		self.loginBtn = tk.Button(self, text = "Login", command = self.login)
+		self.loginBtn = tk.Button(self, text = "Login", command = lambda: controller.show_frame(MainApplicationPage))
 		self.loginBtn.grid(row = "2", column = "0", sticky = "nsew")
 		self.registerBtn = tk.Button(self, text = "Register", command = lambda: controller.show_frame(RegisterPage))
 		self.registerBtn.grid(row = "2", column = "1", sticky = "nsew")
@@ -81,9 +83,9 @@ class UserLoginPage(tk.Frame):
 		print (f"Username = {usrname}, Password = {password}")
 
 class RegisterPage(tk.Frame):
-	def __init__(self, parent, controller, stream):
+	def __init__(self, parent, controller):
 		tk.Frame.__init__(self, parent)
-		self.Label1 = tk.Label (text = "Register Page !!")
+		self.Label1 = ttk.Label(self, text = "Register Page !!")
 		self.Label1.pack()
 
 class MainApplicationPage(tk.Frame):
@@ -93,11 +95,13 @@ class MainApplicationPage(tk.Frame):
 		thread for reading frames and the thread for stoping the read operation
 		"""
 		tk.Frame.__init__(self, parent)
-		self.stream = stream
+		print ("Initializing the Camera")
+		
 		self.frame = None
 		self.thread = None
 		self.stopEvent = None
 		# self = tk.Tk()
+		self.stream = stream
 		self.panel = None
 		self.parent = controller
 		self.fls = cv2.CASCADE_SCALE_IMAGE
@@ -112,7 +116,7 @@ class MainApplicationPage(tk.Frame):
 		btn1 = ttk.Button(self, text = "Make me Laugh!", command = self.newJoke)
 		btn1.pack(side = "bottom", fill = "both", expand = "yes", padx = 10, pady = 10)
 
-		btn2 = ttk.Button(self, text = "Quit", command = self.exitOption)
+		btn2 = ttk.Button(self, text = "Quit", command = lambda: controller.onClose())
 		btn2.pack(side = "top", fill = "both", expand = "yes", padx = 10, pady = 10)
 		self.thread = threading.Thread(target = self.videoLoop, args = ())
 		self.thread.start()
@@ -121,7 +125,7 @@ class MainApplicationPage(tk.Frame):
 	def videoLoop(self):
 		try:
 			while not(self.parent.stopEvent.is_set()):
-				print("Entering the Loop")
+				# print("Entering the Loop")
 				self.frame = self.stream.read()
 				self.frame = utils.resize(self.frame, width = 300)
 				gray = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
@@ -157,24 +161,14 @@ class MainApplicationPage(tk.Frame):
 				url,
 				headers ={"Accept" : "application/json"}
 			).json()
-			self.currentJoke.set(str(res["joke"])) 
+			self.currentJoke.set(str(res["joke"]))
+			self.currentResult.set("")
 			return
 		except Exception as e:
 			self.currentJoke.set(f"Error finding the joke \nError: {e}")
 			return
 
-	
-
-	def exitOption(self):
-		print("[INFO] Closing the app")
-		self.stopEvent.set()
-		self.stream.stop()
-		self.quit()
-
-
-print ("Initializing the Camera")
 stream = VideoStream().start()
 time.sleep(2.0)
-
 appObject = MainApp(streamObj = stream)
 appObject.mainloop()
